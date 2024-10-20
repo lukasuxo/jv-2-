@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #242742;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    color: var(--Dark-Navy, #ff0000);
+    font-feature-settings: "liga" off, "clig" off;
+    font-size: 50px;
+   
+}
