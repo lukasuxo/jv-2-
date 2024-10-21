@@ -153,25 +153,59 @@ button {
     border: 0px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
 
 }
 
 
-.button-class{
+.button-class {
     display: flex;
     padding-top: 24px;
 }
 
-a{
+a {
     color: white
 }
-@media (max-width: 375px) {
-    
-    }
+
+
+
 
 @media (max-width: 425px) {
-    
-}
+    .container {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
 
+        .start, .end{
+            width: 100%;
+        }
+    }
+
+    .end-img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    header {
+        padding-top: 30px;
+        padding-left: 30px;
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    input,button {
+        width: 100%;
+    }
+
+    .middle {
+        padding-left: 30px;
+    }
+}
